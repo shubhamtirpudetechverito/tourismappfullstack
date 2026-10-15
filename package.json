@@ -1,0 +1,12 @@
+{
+  "name": "tourism-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --parallel --recursive run dev",
+    "dev:api": "pnpm --filter api dev",
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm --recursive run build",
+    "start": "pnpm --filter api start"
+  }
+}
